@@ -7,6 +7,8 @@ from flask import Flask, render_template
 #instalar o gunicorn
 #pip freeze > requirements.txt no terminal
 #heroku login no terminal
+#seguir passo a passo do heroku
+# https://sitepythonvideoyoutube.herokuapp.com/
 app = Flask(__name__)
 
 @app.route("/")
